@@ -1,0 +1,46 @@
+
+<html>
+  <head>
+    <meta charset = "UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Update</title>
+  </head>
+  <body >
+    <div id="h">
+        <h1>Online Blood Bank</h1>
+    </div>
+  <div id="profile">
+    <h2><b>Edit Details</b></h2>
+    <legend>
+    <form action="change.php" method="post">
+      <fieldset id="up">
+       <b>Name :</b><br><br>
+       <input  type="text" name="name" required /><br><br><br>
+       <b>District :</b><br><br>
+       <input type="text" name="loc" required /><br><br><br>
+       <b>Phone Number :</b><br><br>
+       <input type="text" name="phno" required /><br><br><br>
+       <b>Blood Group :</b><br><br>
+       <input type="radio" name="bg" value="a+" checked>A+<br>
+       <input type="radio" name="bg" value="a-"> A-<br>
+       <input type="radio" name="bg" value="b+">B+<br>
+       <input type="radio" name="bg" value="b-"> B-<br>
+       <input type="radio" name="bg" value="o+">O+<br>
+       <input type="radio" name="bg" value="o-"> O-<br>
+       <input type="radio" name="bg" value="ab+">  AB+<br>
+       <input type="radio" name="bg" value="ab-">  AB-<br><br><br>
+       <b>Gender : </b><br><br>
+       <input type="radio" name="gender" value="male" checked>      Male<br>
+       <input type="radio" name="gender" value="female">    Female<br>
+       <input type="radio" name="gender" value="other">   Other<br><br><br>
+       <b>Address :</b><br><br>
+       <textarea name="address" rows="8" cols="80" required ></textarea><br><br><br>
+       <b>Password :</b><br><br>
+       <input type="password" name="p1" required /><br><br><br>
+       <input type="submit" value="SUBMIT" />
+      </fieldset>
+      <br><br>
+    </form>
+  </div>
+</body>
+</html>
